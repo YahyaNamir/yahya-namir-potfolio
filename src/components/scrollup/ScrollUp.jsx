@@ -9,9 +9,9 @@ const ScrollUp = () => {
   });
   return (
     <>
-      <a href="#" className="scrollup">
+      <button className="scrollup" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
         <i className="uil uil-arrow-up scrollup__icon"></i>
-      </a>
+      </button>
     </>
   );
 };
