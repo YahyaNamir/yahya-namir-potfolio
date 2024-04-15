@@ -1,0 +1,60 @@
+.projects__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.project {
+  background-color: var(--container-color);
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.project:hover {
+  transform: scale(1.02);
+}
+
+.project__data {
+  padding: 1.5rem;
+}
+
+.project__img-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.project__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project__title {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: var(--mb-0-25);
+}
+
+.project__description {
+  margin-bottom: var(--mb-0-5);
+}
+
+.project__button {
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--normal-font-size);
+  color: var(--title-color);
+}
+
+.project__button:hover {
+  color: rgb(2, 2, 42);
+}
+
+.project__button .button__icon {
+  font-size: var(--small-icon-size);
+  margin-left: var(--mb-0-25);
+}
