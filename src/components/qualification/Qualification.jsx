@@ -254,7 +254,7 @@ const Qualification = () => {
                   </span>
                   <div className="qualification__calender">
                     <i className="uil uil-calendar-alt"></i>
-                    2022 - 2022
+                    2022 - 2024
                   </div>
                 </div>
                 <div>
@@ -299,7 +299,7 @@ const Qualification = () => {
                   </span>
                   <div className="qualification__calender">
                     <i className="uil uil-calendar-alt"></i>
-                    2023 - Present
+                    2024 - Present
                   </div>
                 </div>
                 <div>
@@ -315,20 +315,34 @@ const Qualification = () => {
                   <span className="qualification__line"></span>
                 </div>
                 <div>
-                  <h3 className="qualification__title">
-                    Application de Réservation pour Compagnie Aérienne (MERN
-                    Stack){" "}
-                  </h3>
+                  <h3 className="qualification__title">Task Manager</h3>
                   <span className="qualification__subtitle">
-                    Development of a web application for flight booking tailored
-                    for a fictional airline company. The application will enable
-                    users to search for flights, book tickets, and manage their
-                    reservations.
+                    React app with Redux and Tailwind CSS for streamlined task
+                    management. Boost productivity with smooth state handling
+                    and sleek design.
                   </span>
                   <div className="qualification__calender">
                     <i className="uil uil-calendar-alt"></i>
                     2024 - Present
                   </div>
+                </div>
+              </div>
+
+              <div className="qualification__data">
+                <div>
+                  <h3 className="qualification__title">Dashboard</h3>
+                  <span className="qualification__subtitle">
+                    Building a comprehensive dashboard application with React.js
+                    for social media management purposes.
+                  </span>
+                  <div className="qualification__calender">
+                    <i className="uil uil-calendar-alt"></i>
+                    2024 - Present
+                  </div>
+                </div>
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="qualification__line"></span>
                 </div>
               </div>
             </div>

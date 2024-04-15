@@ -7,6 +7,10 @@
   margin-bottom: var(--mb-2);
 }
 
+.qualification__data--right {
+  direction: rtl;
+}
+
 .qualification__button {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
